@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -ap1 | grep -E '^\.{0,2}[0-9A-Za-z]' | sort -df | tr '\n' ','
